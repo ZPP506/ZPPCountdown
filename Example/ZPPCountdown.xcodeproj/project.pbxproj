@@ -59,13 +59,13 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		719A2BEFB3A76BF0F9D0A47C /* Pods_ZPPCountdown_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZPPCountdown_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8717F0BE5F66E50B35E344AA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8717F0BE5F66E50B35E344AA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C5A5C4FAB0216D4D53A280D /* Pods_ZPPCountdown_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZPPCountdown_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DDC3BC6F76D7385DF32EBC4 /* ZPPCountdown.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZPPCountdown.podspec; path = ../ZPPCountdown.podspec; sourceTree = "<group>"; };
+		9DDC3BC6F76D7385DF32EBC4 /* ZPPCountdown.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZPPCountdown.podspec; path = ../ZPPCountdown.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C24E5DFA11F30CD245227DC4 /* Pods-ZPPCountdown_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPPCountdown_Example.release.xcconfig"; path = "Target Support Files/Pods-ZPPCountdown_Example/Pods-ZPPCountdown_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D120BD1E2A752C3A5B39F2DB /* Pods-ZPPCountdown_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPPCountdown_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZPPCountdown_Example/Pods-ZPPCountdown_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E4065F3B6D6FBACC96C0DF0E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E4065F3B6D6FBACC96C0DF0E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FF14D6C1860D7B54B5471C44 /* Pods-ZPPCountdown_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPPCountdown_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZPPCountdown_Tests/Pods-ZPPCountdown_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				3E3CDF0BA9A7C02A57479C37 /* Pods-ZPPCountdown_Tests.debug.xcconfig */,
 				FF14D6C1860D7B54B5471C44 /* Pods-ZPPCountdown_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -7,6 +7,7 @@
 //
 
 #import "ZPPViewController.h"
+#import "UIButton+timer.h"
 
 @interface ZPPViewController ()
 
@@ -18,6 +19,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+- (IBAction)touchBeginButton:(UIButton *)sender {
+    
+    [sender startTimer:60];
 }
 
 - (void)didReceiveMemoryWarning

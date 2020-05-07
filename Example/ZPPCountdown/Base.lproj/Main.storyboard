@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,7 +18,38 @@
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8YT-4c-n2X">
+                                <rect key="frame" x="30" y="318.5" width="315" height="30"/>
+                                <color key="backgroundColor" red="0.26274509800000001" green="0.27450980390000002" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="点击开始倒计时">
+                                    <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchBeginButton:" destination="whP-gf-Uak" eventType="touchUpInside" id="iAT-4l-3Mi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QFV-mv-2wz">
+                                <rect key="frame" x="30" y="385" width="315" height="30"/>
+                                <color key="backgroundColor" red="0.26274509800000001" green="0.27450980390000002" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="点击开始倒计时">
+                                    <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchBeginButton:" destination="whP-gf-Uak" eventType="touchUpInside" id="HYg-wW-6Ly"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="QFV-mv-2wz" firstAttribute="width" secondItem="8YT-4c-n2X" secondAttribute="width" id="6dj-FD-g0S"/>
+                            <constraint firstItem="QFV-mv-2wz" firstAttribute="top" secondItem="8YT-4c-n2X" secondAttribute="bottom" constant="36.5" id="D67-MH-yuq"/>
+                            <constraint firstItem="8YT-4c-n2X" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" constant="30" id="Gau-UE-Evk"/>
+                            <constraint firstItem="8YT-4c-n2X" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" id="JLO-Uy-eL6"/>
+                            <constraint firstAttribute="trailing" secondItem="8YT-4c-n2X" secondAttribute="trailing" constant="30" id="QYV-MI-mlS"/>
+                            <constraint firstItem="QFV-mv-2wz" firstAttribute="centerX" secondItem="8YT-4c-n2X" secondAttribute="centerX" id="y67-HT-Z39"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
