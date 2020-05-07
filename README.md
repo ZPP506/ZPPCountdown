@@ -8,7 +8,7 @@
 
 ####GCD定时器不受RunLoop约束，比NSTimer更加准时
 
-
+![381492d8-cccc-4b62-bfda-c06c6ffedbe8.gif](https://upload-images.jianshu.io/upload_images/11285123-d175545093ae95b8.gif?imageMogr2/auto-orient/strip)
 ### 效果图
 [![动图](https://upload-images.jianshu.io/upload_images/11285123-b184de5d49cbc2d4.gif?imageMogr2/auto-orient/strip)
 ](https://upload-images.jianshu.io/upload_images/11285123-2e9ea4348171b306.gif?imageMogr2/auto-orient/strip)
