@@ -20,6 +20,7 @@
 1. Button:创建时候的类型不同闪烁效果不一样
  
 > **UIButtonTypeCustom->普通**
+
 > **UIButtonTypeSystem ->闪烁**
  
 #### 开始倒计时
