@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "张朋朋";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 423Z88A982;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -494,6 +497,7 @@
 			baseConfigurationReference = D120BD1E2A752C3A5B39F2DB /* Pods-ZPPCountdown_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 423Z88A982;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZPPCountdown/ZPPCountdown-Prefix.pch";
 				INFOPLIST_FILE = "ZPPCountdown/ZPPCountdown-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = C24E5DFA11F30CD245227DC4 /* Pods-ZPPCountdown_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 423Z88A982;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZPPCountdown/ZPPCountdown-Prefix.pch";
 				INFOPLIST_FILE = "ZPPCountdown/ZPPCountdown-Info.plist";
