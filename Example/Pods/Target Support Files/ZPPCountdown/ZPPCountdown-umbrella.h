@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "UIButton+timer.h"
 
 FOUNDATION_EXPORT double ZPPCountdownVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZPPCountdownVersionString[];

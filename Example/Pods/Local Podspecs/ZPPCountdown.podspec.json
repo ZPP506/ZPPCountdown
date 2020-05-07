@@ -1,15 +1,15 @@
 {
   "name": "ZPPCountdown",
   "version": "0.1.0",
-  "summary": "A short description of ZPPCountdown.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/张朋朋/ZPPCountdown",
+  "summary": "ZPPCountdown. 按钮倒计时使用, 最低兼容 ios 9.0",
+  "description": "TODO: 按钮倒计时使用, 最低兼容 ios 9.0",
+  "homepage": "https://github.com/ZPP506/ZPPCountdown",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "张朋朋": "944160330@qq.com"
+    "ZPP506": "944160330@qq.com"
   },
   "source": {
     "git": "https://github.com/张朋朋/ZPPCountdown.git",

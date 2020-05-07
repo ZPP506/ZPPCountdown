@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ZPPCountdown'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ZPPCountdown.'
+  s.summary          = 'ZPPCountdown. 按钮倒计时使用, 最低兼容 ios 9.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,13 +18,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: 按钮倒计时使用, 最低兼容 ios 9.0
                        DESC
 
-  s.homepage         = 'https://github.com/张朋朋/ZPPCountdown'
+  s.homepage         = 'https://github.com/ZPP506/ZPPCountdown'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '张朋朋' => '944160330@qq.com' }
+  s.author           = { 'ZPP506' => '944160330@qq.com' }
   s.source           = { :git => 'https://github.com/张朋朋/ZPPCountdown.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

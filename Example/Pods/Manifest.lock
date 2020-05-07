@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZPPCountdown: cb795582909229af98ede0ff28c5ea7e78b14d15
+  ZPPCountdown: 00fe5349f0e9ef8d0eb6aa2f4a7070ebbed51e8c
 
 PODFILE CHECKSUM: eb1c47acb5161ce2ec3287bdf85a817c8b96b11c
 
