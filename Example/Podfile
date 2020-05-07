@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ZPPCountdown_Example' do
+  pod 'ZPPCountdown', :path => '../'
+
+  target 'ZPPCountdown_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
