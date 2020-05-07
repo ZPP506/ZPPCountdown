@@ -1,0 +1,6 @@
+framework module ZPPCountdown {
+  umbrella header "ZPPCountdown-umbrella.h"
+
+  export *
+  module * { export * }
+}

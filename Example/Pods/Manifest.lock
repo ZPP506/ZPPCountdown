@@ -1,0 +1,16 @@
+PODS:
+  - ZPPCountdown (0.1.0)
+
+DEPENDENCIES:
+  - ZPPCountdown (from `../`)
+
+EXTERNAL SOURCES:
+  ZPPCountdown:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZPPCountdown: cb795582909229af98ede0ff28c5ea7e78b14d15
+
+PODFILE CHECKSUM: eb1c47acb5161ce2ec3287bdf85a817c8b96b11c
+
+COCOAPODS: 1.7.5

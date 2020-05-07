@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6059CF7192E7417AC179177938086706 /* Pods-ZPPCountdown_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5ADB65DAF8A36EDDEED756D97B1601C /* Pods-ZPPCountdown_Example-dummy.m */; };
+		70A05750BB9933A64CBDD4F99E35FDD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7A56405EB3D4D8961BECFC067E85F4A7 /* Pods-ZPPCountdown_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAB4D35E9E8E441D1D79131CC2A1A217 /* Pods-ZPPCountdown_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		892F0F70EF42EF7BEEB63F302BF037E5 /* Pods-ZPPCountdown_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83905D8F6C82D706129CE86033176EE8 /* Pods-ZPPCountdown_Tests-dummy.m */; };
+		AA06ABCFF8B7C750A9FD9F906BE315B4 /* Pods-ZPPCountdown_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75F6A5247B0CC18D08E2A826F807568C /* Pods-ZPPCountdown_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFF3D19FEC665DAFA4797A2D17D54F2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C46C11326E881D6F40E34A26583CB422 /* ZPPCountdown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D42F0966664F53764DB670C00B71809 /* ZPPCountdown-dummy.m */; };
+		D077FDA9BD35FD4EF515D4A68A9D6223 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA059623E2A566F81663C2CE168EF43 /* ReplaceMe.m */; };
+		DE3199A238A0370F5F2535879B9D9CE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E28118B051B0C34C128394982FB307F4 /* ZPPCountdown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82D8FA78FD76BD1900BF7B8CDBECD8F5 /* ZPPCountdown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		727C3B38FB107FF5D5E9335F5B410186 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5438DF0935137BACAD2C328DA6DCED28;
+			remoteInfo = "Pods-ZPPCountdown_Example";
+		};
+		933E4F2B823F4471899781A1DD072129 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 967D212D2A314356C3DAA1D5515B67F1;
+			remoteInfo = ZPPCountdown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C036A2F89D1ED3A0FBD4DB5507D2E20 /* Pods-ZPPCountdown_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZPPCountdown_Tests.modulemap"; sourceTree = "<group>"; };
+		119C1A0BE5BF1D7D2BE8F4D2327015B3 /* Pods-ZPPCountdown_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZPPCountdown_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		24AA5A629315FC2D577782BF12A68B97 /* Pods-ZPPCountdown_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPPCountdown_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		271D87B489A83A430A2305E3FE420FC3 /* ZPPCountdown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZPPCountdown-prefix.pch"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		366589457A41F02F526A23523F04827D /* Pods-ZPPCountdown_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPPCountdown_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5D23462894B144F6B1D23E18E848FD73 /* Pods-ZPPCountdown_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPPCountdown_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D42F0966664F53764DB670C00B71809 /* ZPPCountdown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZPPCountdown-dummy.m"; sourceTree = "<group>"; };
+		60687EAF6FF73365FD49E1E0128766F6 /* Pods-ZPPCountdown_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPPCountdown_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		645CE315F2D0CB30F32CC98F3390B947 /* Pods-ZPPCountdown_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZPPCountdown_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6823076BF0FF5CF66658F64F8439EE78 /* Pods-ZPPCountdown_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPPCountdown_Example-Info.plist"; sourceTree = "<group>"; };
+		700DA7FCB5475D6D9BBC1D82160CE2F0 /* Pods_ZPPCountdown_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZPPCountdown_Tests.framework; path = "Pods-ZPPCountdown_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70C50A198B450F69550499C753391A34 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		75F6A5247B0CC18D08E2A826F807568C /* Pods-ZPPCountdown_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZPPCountdown_Example-umbrella.h"; sourceTree = "<group>"; };
+		7BA059623E2A566F81663C2CE168EF43 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZPPCountdown/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		82D8FA78FD76BD1900BF7B8CDBECD8F5 /* ZPPCountdown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZPPCountdown-umbrella.h"; sourceTree = "<group>"; };
+		83905D8F6C82D706129CE86033176EE8 /* Pods-ZPPCountdown_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZPPCountdown_Tests-dummy.m"; sourceTree = "<group>"; };
+		8DC2D098D6E7D0683D3DA354AE5EDB6E /* ZPPCountdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZPPCountdown.framework; path = ZPPCountdown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C08D63322AE16E2FCB6A6D02A1CF56C /* Pods-ZPPCountdown_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPPCountdown_Tests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B8AA2C9E365484D7CAE50F7AD98F3630 /* ZPPCountdown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZPPCountdown.xcconfig; sourceTree = "<group>"; };
+		BA936C005C9F161513C995B8729CED47 /* Pods-ZPPCountdown_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPPCountdown_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BAB4D35E9E8E441D1D79131CC2A1A217 /* Pods-ZPPCountdown_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZPPCountdown_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BB00B2135E8B9049AA2686471E900098 /* Pods-ZPPCountdown_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZPPCountdown_Example.modulemap"; sourceTree = "<group>"; };
+		BD5371F1AB549FC2A2E14C3FDE93989A /* Pods-ZPPCountdown_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPPCountdown_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C61D5A00A102ECC553B5C3F4E5D8C07D /* ZPPCountdown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZPPCountdown.modulemap; sourceTree = "<group>"; };
+		C729EB093DE6A78A296A986E4A8FFDAB /* Pods-ZPPCountdown_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPPCountdown_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CEF6B5FBB6C6A82ADB5F76A1B51CB9FE /* ZPPCountdown.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZPPCountdown.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D5ADB65DAF8A36EDDEED756D97B1601C /* Pods-ZPPCountdown_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZPPCountdown_Example-dummy.m"; sourceTree = "<group>"; };
+		E7A04BA0D7BE8715C67A973745165C32 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F730418D0ABD19EA12662BB52B7BA428 /* ZPPCountdown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZPPCountdown-Info.plist"; sourceTree = "<group>"; };
+		FAD6E882B3AB17A22DE7BC3FC4D974E9 /* Pods_ZPPCountdown_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZPPCountdown_Example.framework; path = "Pods-ZPPCountdown_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		383D1699D9A99B0AED529A8B2CE7758C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70A05750BB9933A64CBDD4F99E35FDD8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C998A0806BB466A4B3E2AD6732C83E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF3D19FEC665DAFA4797A2D17D54F2A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B40CF05720DB9D0BDE33A2B646258E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE3199A238A0370F5F2535879B9D9CE6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		344960AD4CD7546A2975F711F13E7BD7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AA93B17CB4CF7C154C6BC750B08BB9D /* ZPPCountdown */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		54EC306308862745293D690A36D94F1E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D343994F9E93C66D54D8FA607D21DB0E /* Pods-ZPPCountdown_Example */,
+				ECF02A3135042BF1EBF358D3B7584AB5 /* Pods-ZPPCountdown_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6AA93B17CB4CF7C154C6BC750B08BB9D /* ZPPCountdown */ = {
+			isa = PBXGroup;
+			children = (
+				7BA059623E2A566F81663C2CE168EF43 /* ReplaceMe.m */,
+				FF1D5FB3F72E09AA8AF6817FCF5B2AAB /* Pod */,
+				CA056F10A6833E09129F52A2528D0D97 /* Support Files */,
+			);
+			name = ZPPCountdown;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BA925EA78D247CB31788B44E1D4B3603 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD6E882B3AB17A22DE7BC3FC4D974E9 /* Pods_ZPPCountdown_Example.framework */,
+				700DA7FCB5475D6D9BBC1D82160CE2F0 /* Pods_ZPPCountdown_Tests.framework */,
+				8DC2D098D6E7D0683D3DA354AE5EDB6E /* ZPPCountdown.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CA056F10A6833E09129F52A2528D0D97 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C61D5A00A102ECC553B5C3F4E5D8C07D /* ZPPCountdown.modulemap */,
+				B8AA2C9E365484D7CAE50F7AD98F3630 /* ZPPCountdown.xcconfig */,
+				5D42F0966664F53764DB670C00B71809 /* ZPPCountdown-dummy.m */,
+				F730418D0ABD19EA12662BB52B7BA428 /* ZPPCountdown-Info.plist */,
+				271D87B489A83A430A2305E3FE420FC3 /* ZPPCountdown-prefix.pch */,
+				82D8FA78FD76BD1900BF7B8CDBECD8F5 /* ZPPCountdown-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZPPCountdown";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				344960AD4CD7546A2975F711F13E7BD7 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BA925EA78D247CB31788B44E1D4B3603 /* Products */,
+				54EC306308862745293D690A36D94F1E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D343994F9E93C66D54D8FA607D21DB0E /* Pods-ZPPCountdown_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BB00B2135E8B9049AA2686471E900098 /* Pods-ZPPCountdown_Example.modulemap */,
+				645CE315F2D0CB30F32CC98F3390B947 /* Pods-ZPPCountdown_Example-acknowledgements.markdown */,
+				BA936C005C9F161513C995B8729CED47 /* Pods-ZPPCountdown_Example-acknowledgements.plist */,
+				D5ADB65DAF8A36EDDEED756D97B1601C /* Pods-ZPPCountdown_Example-dummy.m */,
+				366589457A41F02F526A23523F04827D /* Pods-ZPPCountdown_Example-frameworks.sh */,
+				6823076BF0FF5CF66658F64F8439EE78 /* Pods-ZPPCountdown_Example-Info.plist */,
+				75F6A5247B0CC18D08E2A826F807568C /* Pods-ZPPCountdown_Example-umbrella.h */,
+				60687EAF6FF73365FD49E1E0128766F6 /* Pods-ZPPCountdown_Example.debug.xcconfig */,
+				BD5371F1AB549FC2A2E14C3FDE93989A /* Pods-ZPPCountdown_Example.release.xcconfig */,
+			);
+			name = "Pods-ZPPCountdown_Example";
+			path = "Target Support Files/Pods-ZPPCountdown_Example";
+			sourceTree = "<group>";
+		};
+		ECF02A3135042BF1EBF358D3B7584AB5 /* Pods-ZPPCountdown_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0C036A2F89D1ED3A0FBD4DB5507D2E20 /* Pods-ZPPCountdown_Tests.modulemap */,
+				119C1A0BE5BF1D7D2BE8F4D2327015B3 /* Pods-ZPPCountdown_Tests-acknowledgements.markdown */,
+				24AA5A629315FC2D577782BF12A68B97 /* Pods-ZPPCountdown_Tests-acknowledgements.plist */,
+				83905D8F6C82D706129CE86033176EE8 /* Pods-ZPPCountdown_Tests-dummy.m */,
+				9C08D63322AE16E2FCB6A6D02A1CF56C /* Pods-ZPPCountdown_Tests-Info.plist */,
+				BAB4D35E9E8E441D1D79131CC2A1A217 /* Pods-ZPPCountdown_Tests-umbrella.h */,
+				5D23462894B144F6B1D23E18E848FD73 /* Pods-ZPPCountdown_Tests.debug.xcconfig */,
+				C729EB093DE6A78A296A986E4A8FFDAB /* Pods-ZPPCountdown_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZPPCountdown_Tests";
+			path = "Target Support Files/Pods-ZPPCountdown_Tests";
+			sourceTree = "<group>";
+		};
+		FF1D5FB3F72E09AA8AF6817FCF5B2AAB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				70C50A198B450F69550499C753391A34 /* LICENSE */,
+				E7A04BA0D7BE8715C67A973745165C32 /* README.md */,
+				CEF6B5FBB6C6A82ADB5F76A1B51CB9FE /* ZPPCountdown.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2039A689F295E8D9D3273E5EA5F4B0C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28118B051B0C34C128394982FB307F4 /* ZPPCountdown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ABE4F78FFAE03EF44C3EE6AD97D08AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA06ABCFF8B7C750A9FD9F906BE315B4 /* Pods-ZPPCountdown_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CADB9AAA0552602BF21FD8AC93ADC9E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A56405EB3D4D8961BECFC067E85F4A7 /* Pods-ZPPCountdown_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5438DF0935137BACAD2C328DA6DCED28 /* Pods-ZPPCountdown_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEC26DE78644ACD96B137D95C804D5FA /* Build configuration list for PBXNativeTarget "Pods-ZPPCountdown_Example" */;
+			buildPhases = (
+				2ABE4F78FFAE03EF44C3EE6AD97D08AB /* Headers */,
+				86FB168E89A3F4FEB5E4B2242D7BA536 /* Sources */,
+				383D1699D9A99B0AED529A8B2CE7758C /* Frameworks */,
+				F95EC0D5AA768F051A3721BAA7B13AAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA8E572DC03BEAFDEE5259F8DD93741F /* PBXTargetDependency */,
+			);
+			name = "Pods-ZPPCountdown_Example";
+			productName = "Pods-ZPPCountdown_Example";
+			productReference = FAD6E882B3AB17A22DE7BC3FC4D974E9 /* Pods_ZPPCountdown_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		967D212D2A314356C3DAA1D5515B67F1 /* ZPPCountdown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29F0302545003A6E4B08C1D5949430E9 /* Build configuration list for PBXNativeTarget "ZPPCountdown" */;
+			buildPhases = (
+				2039A689F295E8D9D3273E5EA5F4B0C2 /* Headers */,
+				5CDB6FE9FDB63688AA7DF335A83E2C2B /* Sources */,
+				6C998A0806BB466A4B3E2AD6732C83E4 /* Frameworks */,
+				9A97D18C5E6043F7D83B3FCC4D7702A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZPPCountdown;
+			productName = ZPPCountdown;
+			productReference = 8DC2D098D6E7D0683D3DA354AE5EDB6E /* ZPPCountdown.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD57450C21767C991568E3D51403AD43 /* Pods-ZPPCountdown_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1707176801D52223310781791DF296C /* Build configuration list for PBXNativeTarget "Pods-ZPPCountdown_Tests" */;
+			buildPhases = (
+				3CADB9AAA0552602BF21FD8AC93ADC9E /* Headers */,
+				F95E9CF3436CEDCDF58714D253D115BC /* Sources */,
+				81B40CF05720DB9D0BDE33A2B646258E /* Frameworks */,
+				6DAC387D1E7B7715C1FBB5F6BFE5F2EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				211FB60C51F438E43EB5D3EC4A688140 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZPPCountdown_Tests";
+			productName = "Pods-ZPPCountdown_Tests";
+			productReference = 700DA7FCB5475D6D9BBC1D82160CE2F0 /* Pods_ZPPCountdown_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BA925EA78D247CB31788B44E1D4B3603 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5438DF0935137BACAD2C328DA6DCED28 /* Pods-ZPPCountdown_Example */,
+				BD57450C21767C991568E3D51403AD43 /* Pods-ZPPCountdown_Tests */,
+				967D212D2A314356C3DAA1D5515B67F1 /* ZPPCountdown */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DAC387D1E7B7715C1FBB5F6BFE5F2EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A97D18C5E6043F7D83B3FCC4D7702A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95EC0D5AA768F051A3721BAA7B13AAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CDB6FE9FDB63688AA7DF335A83E2C2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D077FDA9BD35FD4EF515D4A68A9D6223 /* ReplaceMe.m in Sources */,
+				C46C11326E881D6F40E34A26583CB422 /* ZPPCountdown-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86FB168E89A3F4FEB5E4B2242D7BA536 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6059CF7192E7417AC179177938086706 /* Pods-ZPPCountdown_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95E9CF3436CEDCDF58714D253D115BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892F0F70EF42EF7BEEB63F302BF037E5 /* Pods-ZPPCountdown_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		211FB60C51F438E43EB5D3EC4A688140 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZPPCountdown_Example";
+			target = 5438DF0935137BACAD2C328DA6DCED28 /* Pods-ZPPCountdown_Example */;
+			targetProxy = 727C3B38FB107FF5D5E9335F5B410186 /* PBXContainerItemProxy */;
+		};
+		BA8E572DC03BEAFDEE5259F8DD93741F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZPPCountdown;
+			target = 967D212D2A314356C3DAA1D5515B67F1 /* ZPPCountdown */;
+			targetProxy = 933E4F2B823F4471899781A1DD072129 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B86B945EF53FA6EC7D1E12FB2C802B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C729EB093DE6A78A296A986E4A8FFDAB /* Pods-ZPPCountdown_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZPPCountdown_Tests/Pods-ZPPCountdown_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZPPCountdown_Tests/Pods-ZPPCountdown_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2DEB51F6E19473783FD92A5CF1B4FEB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8AA2C9E365484D7CAE50F7AD98F3630 /* ZPPCountdown.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZPPCountdown/ZPPCountdown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZPPCountdown/ZPPCountdown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZPPCountdown/ZPPCountdown.modulemap";
+				PRODUCT_MODULE_NAME = ZPPCountdown;
+				PRODUCT_NAME = ZPPCountdown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4B5A9F1110B14707AE0F9FFD1246E751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D23462894B144F6B1D23E18E848FD73 /* Pods-ZPPCountdown_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZPPCountdown_Tests/Pods-ZPPCountdown_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZPPCountdown_Tests/Pods-ZPPCountdown_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6FD2C61CD19CBFF4A2A21636B5BBB0B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8AA2C9E365484D7CAE50F7AD98F3630 /* ZPPCountdown.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZPPCountdown/ZPPCountdown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZPPCountdown/ZPPCountdown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZPPCountdown/ZPPCountdown.modulemap";
+				PRODUCT_MODULE_NAME = ZPPCountdown;
+				PRODUCT_NAME = ZPPCountdown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9963708C0D93D3726212CC808A37552D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60687EAF6FF73365FD49E1E0128766F6 /* Pods-ZPPCountdown_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZPPCountdown_Example/Pods-ZPPCountdown_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZPPCountdown_Example/Pods-ZPPCountdown_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C4C2B33DFD9838645B962E542C6585FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD5371F1AB549FC2A2E14C3FDE93989A /* Pods-ZPPCountdown_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZPPCountdown_Example/Pods-ZPPCountdown_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZPPCountdown_Example/Pods-ZPPCountdown_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29F0302545003A6E4B08C1D5949430E9 /* Build configuration list for PBXNativeTarget "ZPPCountdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FD2C61CD19CBFF4A2A21636B5BBB0B8 /* Debug */,
+				2DEB51F6E19473783FD92A5CF1B4FEB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1707176801D52223310781791DF296C /* Build configuration list for PBXNativeTarget "Pods-ZPPCountdown_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B5A9F1110B14707AE0F9FFD1246E751 /* Debug */,
+				2B86B945EF53FA6EC7D1E12FB2C802B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEC26DE78644ACD96B137D95C804D5FA /* Build configuration list for PBXNativeTarget "Pods-ZPPCountdown_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9963708C0D93D3726212CC808A37552D /* Debug */,
+				C4C2B33DFD9838645B962E542C6585FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
