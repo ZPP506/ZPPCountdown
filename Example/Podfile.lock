@@ -1,5 +1,5 @@
 PODS:
-  - ZPPCountdown (1.0.0)
+  - ZPPCountdown (1.0.1)
 
 DEPENDENCIES:
   - ZPPCountdown (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZPPCountdown: 8505d1bfb393a5818314a7e3520477297df0af1b
+  ZPPCountdown: 566e66eba44321d8193bb0194d8a4fdb1b8c323d
 
 PODFILE CHECKSUM: eb1c47acb5161ce2ec3287bdf85a817c8b96b11c
 

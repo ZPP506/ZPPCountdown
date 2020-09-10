@@ -108,7 +108,7 @@ typedef void(^CompleteBlock)(void);
     self.isCanUserInterface = self.isUserInteractionEnabled;
     self.completeBlock = completeBlock;
     self.timeAll = during;
-    [self cancelTime];
+    [self endTime];
     dispatch_queue_t queue = dispatch_get_global_queue(0, 0);
     dispatch_source_t timer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, queue);
     dispatch_source_set_timer(timer, DISPATCH_TIME_NOW, 1.0 * NSEC_PER_SEC, 0 * NSEC_PER_SEC);
@@ -157,6 +157,8 @@ typedef void(^CompleteBlock)(void);
 - (void)cancelTime
 {
     [self startTimerForeground:self.timerForeground forwordTime: self.forwordTime end:self.end During:0 userInteractionEnabled:NO EndComplete:self.completeBlock];
+}
+- (void)endTime{
     dispatch_source_t time =(dispatch_source_t) objc_getAssociatedObject(self, @"zpp_time");
     if (time) {
         dispatch_cancel(time);
