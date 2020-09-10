@@ -16,6 +16,15 @@
  *UIButtonTypeCustom->普通
  *UIButtonTypeSystem ->闪烁
  */
+/// 放弃10s - 放弃
+/// @param during 倒计时时间
+- (void)startCancelTimer:(NSInteger)during
+          endComplete:(void (^)(void))completeBlock;
+
+/// 提示语: 30s ~ 30s
+/// @param during 倒计时时间
+- (void)start30sTimer:(NSInteger)during
+          endComplete:(void (^)(void))completeBlock;
 
 /// 提示语: 1s ~ 重新发送
 /// @param during 倒计时时间
