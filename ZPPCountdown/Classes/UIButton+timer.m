@@ -145,10 +145,7 @@ typedef void(^CompleteBlock)(void);
     [self startTimerForeground:self.timerForeground forwordTime: self.forwordTime end:self.end During:time userInteractionEnabled:NO EndComplete:self.completeBlock];
 }
 - (void)applicationEnterBackground{
-    dispatch_source_t time =(dispatch_source_t) objc_getAssociatedObject(self, @"zpp_time");
-    if (time) {
-        dispatch_cancel(time);
-    }
+    [self endTime];
     NSString * keyBt = [NSString stringWithFormat:@"%p", self];
     [[NSUserDefaults standardUserDefaults] setObject:[NSDate date] forKey:keyBt];
 }
@@ -156,7 +153,7 @@ typedef void(^CompleteBlock)(void);
 #pragma mark -
 - (void)cancelTime
 {
-    [self startTimerForeground:self.timerForeground forwordTime: self.forwordTime end:self.end During:0 userInteractionEnabled:NO EndComplete:self.completeBlock];
+    [self startTimerForeground:self.timerForeground forwordTime: self.forwordTime end:self.end During:0 userInteractionEnabled:self.isCanUserInterface EndComplete:self.completeBlock];
 }
 - (void)endTime{
     dispatch_source_t time =(dispatch_source_t) objc_getAssociatedObject(self, @"zpp_time");
